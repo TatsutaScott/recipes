@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: 'Table of Contents'
+  link: /toc/
+- name: About
+  link: /about/
+- name: Notes
+  link: /notes/

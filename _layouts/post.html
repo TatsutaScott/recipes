@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="display-1 ">{{ page.title }}</h1>
+  <div class="mt-4 mb-2" style="height: 3px; background-color: black;"></div>
+  <div class="mt-0 mb-3" style="height: 1px; background-color: black;"></div>
+
+  <dl class="row row-cols-auto fs-4 mb-3">
+    <dt class="col m-0">Date</dt>
+    <dd class="col m-0">{{ page.date | date: "%b %d, %y" }}</dd>
+
+    <dt class="col m-0">Servings</dt>
+    <dd class="col m-0">{{page.servings}}</dd>
+
+    <dt class="col m-0">Time</dt>
+    <dd class="col m-0">{{page.time}}</dd>
+  </dl>
+  <!-- <span class="fs-4 text-muted">{{ page.date | date: "%b %d, %y" }}</span> -->
+  <div class="mt-4">{{ content }}</div>
+  <small class="text-muted  fs-6"><a class="blankLink" href=" {{page.link}}">Click here</a> for original recipe.</small>
+</div>

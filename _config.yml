@@ -1,0 +1,45 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the navbar)
+name: 'Tatsuta Recipes'
+
+# Your site's title (e.g., Ben's Awesome Site, The GitHub Blog, etc.), used as part of the title tag like Home | Ben's Awesome Site.
+title: 'Tatsuta Recipes'
+
+
+# The full URL to your site. Note: site.github.url will be used by default.
+url:
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: "recipes"
+
+# global author information
+author: Scott Tatsuta
+
+# URL to a site-wide logo (e.g., /assets/your-company-logo.png)
+logo: /assets/images/light_bauhaus_logo.png
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
+permalink: none
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: 
+  facebook:
+  github:
+  instagram: 
+  linkedin: 
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
