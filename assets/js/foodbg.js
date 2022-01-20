@@ -124,8 +124,7 @@ const foodSketch = p => {
         let canvasDiv = document.getElementById('bgContainer');
         let w = canvasDiv.offsetWidth;
         let h = canvasDiv.offsetHeight;
-        canvasDiv.position(0, 0);
-        canvasDiv.style('z-index', -1);
+
         canvas = p.createCanvas(w, p.windowHeight);
         engine = Engine.create();
         world = engine.world;
