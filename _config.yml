@@ -21,23 +21,14 @@ baseurl: "recipes"
 # global author information
 author: Scott Tatsuta
 
-# URL to a site-wide logo (e.g., /assets/your-company-logo.png)
-logo: /assets/images/light_bauhaus_logo.png
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
 permalink: none
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: 
-  facebook:
-  github:
+  email: tatsuta.scott@gmail.com
+  github: TatsutaScott
   instagram: 
   linkedin: 
-  rss: # just type anything here for a working RSS icon
-  twitter: 
 
 plugins:
   - jekyll-seo-tag
