@@ -121,7 +121,7 @@ const foodSketch = p => {
     let cHeight = document.body.clientHeight;
 
     p.setup = () => {
-        canvas = p.createCanvas(cWidth, cHeight);
+        canvas = p.createCanvas(p.windowWidth, p.windowHeight);
         engine = Engine.create();
         world = engine.world;
         p.select('canvas').elt.style.letterSpacing = "20px";
