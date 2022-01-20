@@ -26,7 +26,7 @@ permalink: /toc/
       <div class="accordion-body">
         <ul class="list-group list-group-flush">
         {% for post in tag[1] %}
-            <li class="list-group-item"> <a class="blankLink" href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }} </a></li>
+            <li class="list-group-item"> <a class="blankLink" href="{{{ site.url }}{{ site.baseurl }}{{post.url}}"> {{ post.title }} </a></li>
         {% endfor %}
         </ul>
       </div>
