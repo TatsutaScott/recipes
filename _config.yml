@@ -21,8 +21,6 @@ baseurl: "/recipes"
 # global author information
 author: Scott Tatsuta
 
-permalink: none
-
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: tatsuta.scott@gmail.com
